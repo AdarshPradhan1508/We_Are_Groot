@@ -1,0 +1,3 @@
+applications:
+- name: AppIDwc-node-b612fdd7-c174-4bdc-8da8-8f2c42124ab5
+  memory: 256M

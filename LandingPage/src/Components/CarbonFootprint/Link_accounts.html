@@ -1,0 +1,67 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+
+  <title>Calculate Carbon Footprint</title>
+  <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sign-in/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="styles.css" rel="stylesheet">
+  <style>
+      body {
+         background-image: url("images/shutterstock_1412034770-1-980x551.png");
+         height: 100%;
+
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+      }
+   </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body class="text-center">
+  <div style="background-image: 'images/shutterstock_1412034770-1-980x551.png';"></div>
+  <form class="form-signin">
+    <img class="mb-4" src="images/marvel-cute-groot-512x512.png" alt="" width="144" height="144">
+    <h1 class="h3 mb-3 font-weight-normal">Link your accounts!</h1>
+    
+    <input type="text" id="inpute" name= "elec_acc_no" class="form-control form-e" placeholder="Electricity Account No." required autofocus>
+    <input type="text" id="inputl" name= "LPG_acc_no"  class="form-control form-l" placeholder="LPG Account No." required>
+    <input type="text" id="inputp" name= "petrol_acc_no"  class="form-control form-p" placeholder="Petrol Account No." required>
+    <input type="text" id="inputd"  name= "diesel_acc_no" class="form-control form-d" placeholder="Diesel Account No." required>
+
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-lg btn-primary btn-block space " data-toggle="modal" data-target="#myModal">Link Accounts!</button>
+  </form>
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Carbon Data</h4>
+        </div>
+        <div class="modal-body">
+          <p>Congratulations! You have reduced your carbon footprint!</p>
+          <h4>You Are Rewarded 50 coins for availing discounts!</h4>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+
+
+</body>
+</html>
