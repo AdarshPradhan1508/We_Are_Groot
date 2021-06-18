@@ -2,7 +2,7 @@
 [Solution Roadmap](https://docs.google.com/presentation/d/1AlJi7E0Avzf80oA66lBgZswI5f86FO6M/edit#slide=id.p2) \
 [3 minute Demo Video](https://www.youtube.com/watch?v=Kb-kdF8Rhs4)
 # Green with Groot
-[Click here](https://eu-gb.appid.cloud.ibm.com/oauth/v4/b612fdd7-c174-4bdc-8da8-8f2c42124ab5/authorization?client_id=08ea0c2d-2ca3-48a4-96b6-93b19d01ffbb&response_type=code&redirect_uri=http://localhost:3000/ibm/cloud/appid/callback&scope=appid_default&language=en-GB&state=t4QMqQccwAc01yztW8aPZ22A5S8=&language=en-GB&language=en-GB,en-GB&language=en-GB,en-GB,en-GB,en-GB&language=en-GB,en-GB,en-GB,en-GB,en-GB,en-GB,en-GB,en-GB) to visit the website. 
+[Click here](https://hackathon-wit.herokuapp.com/) to visit the website. 
 
 A web application which facilitates selling of recyclable products and buying of environment friendly ones. It also enables its users to keep a tab on their monthly Carbon footprint using their electricity, LPG, and fossil fuel usage data.
 
